@@ -121,11 +121,11 @@ const banks = [
  */
 function validateIBAN(iban) {
 
-    iban = iban.trim();
-
     if (!iban) {
         return false;
     }
+
+    iban = iban.trim();
 
     if (iban.length !== 24) {
         return false;
