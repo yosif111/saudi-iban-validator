@@ -42,7 +42,6 @@ const banks = [
     {
         'samaCode': '05',
         'bankName': 'Alinma Bank',
-        'sarieCode': 'INMASARI',
         'nameEn': 'AL Inma Bank',
         'nameAr': 'بنك الانماء',
     },
