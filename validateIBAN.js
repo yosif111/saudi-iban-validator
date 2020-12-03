@@ -137,14 +137,8 @@ function validateIBAN(iban) {
     }
 
     const bankCode = iban.substring(4, 6)
-    for (let index = 0; index < banks.length; index++) {
-        let bank = banks[index]
-        if (bank.samaCode == bankCode) {
-            return true
-        }
-    }
 
-    return false
+    return banks.some(b => b.samaCode === bankCode)
 }
 
 
